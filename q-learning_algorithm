@@ -1,0 +1,5 @@
+#define ALPHA 0.1   //learnign rate , 0: means nothing new is learned and robot depend on past exepriences, 1: means robot always learn and don't depend on past experiences
+#define GAMMA 0.5  //discount factor (to decrease rewards by time)
+#define episodes 100  //no of iterations
+#define states 10  //numbes of states in environment, by default they should be 2 (obstacle , or no obstacle), but we made 10 for more complex environments
+#define number_of_actions 4  //total number of actions (forward, backward, stop, left)
