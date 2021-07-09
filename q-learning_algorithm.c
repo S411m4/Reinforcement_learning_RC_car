@@ -1,4 +1,5 @@
-
+//original Arduino Code written by : Varun2905
+//embeded C code written by : S41m4 
 
 #include <util/delay.h>  //to use delay functions
 #include "Ultarsonic_driver.h"  
